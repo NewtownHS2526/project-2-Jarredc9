@@ -10,10 +10,7 @@ Create a five-page mini site powered by Tailwind CSS. Each page highlights a top
 - A short write-up (2–3 sentences per page) explaining your design choices inside HTML comments or in the README.
 
 ## Core Requirements
-1. **Navigation**: Every page must contain the same Tailwind-styled `header`/`nav` with links to all five pages. Links should clearly indicate the current page.
-2. **Structure**: Use a `header`, `main`, and `footer` on every page. Keep layout consistent but allow each page to feature unique content.
-3. **Layout System**: Implement Tailwind `flex` or `grid` utilities (or both) to organize content sections on each page. Demonstrate at least one responsive breakpoint.
-4. **New Semantic Tag**: Each page must showcase at least one semantic tag you have not used in class before (e.g. `figure`, `details`, `dialog`, `aside`, `mark`, `time`). Do not reuse the same “new” tag on multiple pages.
+1. **Navigation**: Every page must contain the same Tailwind-styled `header`/`nav` with links to all five pages. Links should clearly indicate the current page. on multiple pages.
 5. **Tailwind Components**: Build or adapt at least two reusable utility classes or components (e.g. buttons, cards, badges). Use them across pages for consistency.
 6. **Media Content**: Include at least one image, embedded video, or audio element somewhere in the site. Use Tailwind utilities to style media responsively.
 7. **Accessibility**: Provide meaningful alt text, ensure color contrast, and add `aria` or landmark attributes where helpful. Verify keyboard navigation works.
@@ -35,3 +32,6 @@ Create a five-page mini site powered by Tailwind CSS. Each page highlights a top
 - README updated with any notes, credits for resources, and the stretch challenges you attempted.
 
 Happy building—push your creativity, explore new HTML elements, and make sure the experience feels cohesive across all pages!
+2. **Structure**: Use a `header`, `main`, and `footer` on every page. Keep layout consistent but allow each page to feature unique content.
+3. **Layout System**: Implement Tailwind `flex` or `grid` utilities (or both) to organize content sections on each page. Demonstrate at least one responsive breakpoint.
+4. **New Semantic Tag**: Each page must showcase at least one semantic tag you have not used in class before (e.g. `figure`, `details`, `dialog`, `aside`, `mark`, `time`). Do not reuse the same “new” tag

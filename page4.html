@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soccer - Sports Update Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-sans text-gray-100 relative min-h-screen">
+    <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+      <source src="soccer.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-black bg-opacity-70 min-h-screen">
+
+      <header class="bg-green-700 text-white p-4 shadow-md">
+        <nav class="flex justify-center space-x-4">
+          <a href="index.html" class="hover:underline">Home</a>
+          <a href="page2.html" class="hover:underline">Football</a>
+          <a href="page3.html" class="hover:underline">Basketball</a>
+          <a href="page4.html" aria-current="page" class="underline">Soccer</a>
+        </nav>
+      </header>
+
+      <main class="p-8 text-center">
+        <h1 class="text-3xl font-bold mb-4 text-green-400">Soccer Updates</h1>
+        <p class="mb-6 text-gray-200">
+          Get the latest soccer news, match results, transfer updates, and highlights from around the world.
+        </p>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+
+          <div class="bg-gray-800 bg-opacity-80 p-4 rounded shadow">
+            <img 
+              src="socc2.jpg"
+              alt="Soccer players during a match"
+              class="rounded mb-2 w-full h-64 object-cover"
+            />
+            <h2 class="text-xl font-semibold text-green-400">Match of the Week</h2>
+            <p class="text-gray-300">
+              Follow the most exciting match featuring world-class players, stunning goals, and intense competition.
+            </p>
+          </div>
+
+          <div class="bg-gray-800 bg-opacity-80 p-4 rounded shadow">
+            <img 
+              src="socc3.jpg"
+              alt="Large soccer stadium"
+              class="rounded mb-2 w-full h-64 object-cover"
+            />
+            <h2 class="text-xl font-semibold text-green-400">Top Stadiums</h2>
+            <p class="text-gray-300">
+              Explore the most iconic soccer stadiums known for electrifying crowds and unforgettable atmospheres.
+            </p>
+          </div>
+
+        </section>
+
+        <aside class="bg-gray-800 bg-opacity-80 p-4 rounded mt-8 text-left max-w-3xl mx-auto">
+          <h3 class="text-2xl font-semibold text-green-400 mb-2">Fun Fact</h3>
+          <p class="text-gray-300">
+            Soccer (football) is the most popular sport in the world, with over 3.5 billion fans globally.
+          </p>
+        </aside>
+
+        <figure class="mt-8">
+          <img 
+            src="https://source.unsplash.com/900x400/?soccer-field"
+            alt="Soccer field under stadium lights"
+            class="rounded mx-auto shadow-md"
+          />
+          <figcaption class="text-sm text-gray-300 mt-2">
+            A pitch glowing under the lights — ready for the next big match.
+          </figcaption>
+        </figure>
+
+      </main>
+
+      <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>
+          Contact us:
+          <a href="mailto:sportsupdate@example.com" class="underline">sportsupdate@example.com</a>
+          |
+          Last updated: <time datetime="2025-11-13">November 13, 2025</time>
+        </p>
+      </footer>
+
+    </div>
+  </body>
+</html>

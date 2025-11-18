@@ -3,27 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Hub</title>
+    <title>Sports Update Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="#">Page 2</a>
-        <a href="#">Page 3</a>
-        <a href="#">Page 4</a>
-        <a href="#">Page 5</a>
-        <a href="#">Page 6</a>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Project Overview</h1>
-        <p>Welcome! Replace this text with your project introduction.</p>
-      </section>
-    </main>
-    <footer>
-      <small>&copy; 2025 Project Hub</small>
-    </footer>
+
+  <body class="font-sans text-gray-100 relative min-h-screen">
+    <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+      <source src="bb.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-black bg-opacity-70 min-h-screen">
+      <header class="bg-blue-700 text-white p-4 shadow-md">
+        <nav class="flex justify-center space-x-4">
+          <a href="index.html" aria-current="page" class="underline">Home</a>
+          <a href="page2.html" class="hover:underline">Football</a>
+          <a href="page3.html" class="hover:underline">Basketball</a>
+          <a href="page4.html" class="hover:underline">Soccer</a>
+        </nav>
+      </header>
+
+      <main class="p-8 text-center">
+        <h1 class="text-3xl font-bold mb-4 text-blue-400">Sports Updates</h1>
+        <p class="mb-6 text-gray-200">
+          Your all-in-one destination for the latest highlights, scores, and stories across all major sports.
+        </p>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+
+          <a href="page2.html" class="block bg-gray-800 bg-opacity-80 p-4 rounded shadow hover:scale-105 transition">
+            <img 
+              src="AF1.jpg"
+              alt="Football players on the field"
+              class="rounded mb-2 w-full h-64 object-cover"
+            />
+            <h2 class="text-xl font-semibold text-blue-400">Football Highlights</h2>
+            <p class="text-gray-300">Catch the biggest hits, top plays, and weekly game recaps.</p>
+          </a>
+
+          <a href="page3.html" class="block bg-gray-800 bg-opacity-80 p-4 rounded shadow hover:scale-105 transition">
+            <img 
+              src="bball.jpg"
+              alt="Basketball game action"
+              class="rounded mb-2 w-full h-64 object-cover"
+            />
+            <h2 class="text-xl font-semibold text-blue-400">Basketball Action</h2>
+            <p class="text-gray-300">Stay updated on dunks, buzzer-beaters, and standout performances.</p>
+          </a>
+
+          <a href="page4.html" class="block bg-gray-800 bg-opacity-80 p-4 rounded shadow hover:scale-105 transition">
+            <img 
+              src="socc1.jpg"
+              alt="Soccer match in progress"
+              class="rounded mb-2 w-full h-64 object-cover"
+            />
+            <h2 class="text-xl font-semibold text-blue-400">Soccer News</h2>
+            <p class="text-gray-300">Global coverage, from last-minute goals to tournament updates.</p>
+          </a>
+
+        </section>
+
+        <aside class="bg-gray-800 bg-opacity-80 p-4 rounded mt-8 text-left max-w-3xl mx-auto">
+          <h3 class="text-2xl font-semibold text-blue-400 mb-2">Fun Fact</h3>
+          <p class="text-gray-300">
+            Basketball was invented in 1891, soccer dates back over 2,000 years, and American football evolved from rugby.
+          </p>
+        </aside>
+
+        <figure class="mt-8">
+          <img
+            src="https://source.unsplash.com/900x400/?sports,stadium"
+            alt="Large sports stadium at night"
+            class="rounded mx-auto shadow-md"
+          />
+          <figcaption class="text-sm text-gray-300 mt-2">
+            A stadium packed with excitement — no matter the sport.
+          </figcaption>
+        </figure>
+      </main>
+
+      <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>
+          Contact us: 
+          <a href="mailto:sportsupdate@example.com" class="underline">sportsupdate@example.com</a>
+          |
+          Last updated:
+          <time datetime="2025-11-13">November 13, 2025</time>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
+
